@@ -1,0 +1,30 @@
+{
+  "name": "expression-network-miniapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "个人英语表达知识网络 Phase 2 核心系统",
+  "scripts": {
+    "dev:weapp": "taro build --type weapp --watch",
+    "build:weapp": "taro build --type weapp"
+  },
+  "dependencies": {
+    "@tarojs/components": "^3.6.35",
+    "@tarojs/plugin-framework-react": "^3.6.35",
+    "@tarojs/plugin-platform-weapp": "^3.6.35",
+    "@tarojs/react": "^3.6.35",
+    "@tarojs/runtime": "^3.6.35",
+    "@tarojs/taro": "^3.6.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@tarojs/cli": "^3.6.35",
+    "@tarojs/webpack5-runner": "^3.6.40",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "babel-preset-taro": "^3.6.40",
+    "typescript": "^5.4.5",
+    "webpack": "^5.78.0"
+  }
+}

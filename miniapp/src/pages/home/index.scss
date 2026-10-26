@@ -1,0 +1,13 @@
+.page-scroll { height: 100vh; }
+.home-page { min-height: 100vh; padding: 52px 30px 70px; }
+.home-page__hero { padding: 16px 4px 34px; }
+.home-page__eyebrow { display: block; color: #a26b36; font-size: 19px; letter-spacing: 2px; }
+.home-page__title { display: block; color: #1d5b54; font-family: Georgia, serif; font-size: 64px; line-height: 1.12; font-weight: 600; margin: 18px 0 16px; white-space: pre-line; }
+.home-page__subtitle { display: block; color: #77766f; font-size: 25px; margin-bottom: 30px; }
+.recent-list { display: flex; flex-direction: column; }
+.recent-item { min-height: 84px; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #ece8df; }
+.recent-item:last-child { border-bottom: 0; }
+.recent-item__text { display: block; color: #242c27; font-size: 30px; font-weight: 600; }
+.recent-item__hint { display: block; color: #8a8982; font-size: 22px; margin-top: 6px; }
+.recent-item__arrow { color: #a26b36; font-size: 32px; }
+.home-page__tools { color: #aaa59b; text-align: center; font-size: 22px; padding: 6px 0 20px; }

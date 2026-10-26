@@ -1,0 +1,31 @@
+.page-scroll { height: 100vh; }
+.dictionary-page { min-height: 100vh; padding: 44px 30px 80px; }
+.dictionary-page__heading { padding: 10px 4px 32px; }
+.dictionary-page__home { display: block; color: #1d5b54; font-size: 23px; text-align: right; margin-bottom: 16px; }
+.dictionary-page__expression { display: block; color: #1d5b54; font-size: 58px; font-weight: 600; }
+.dictionary-page__phonetic { display: block; color: #817f76; font-size: 25px; margin-top: 8px; }
+.dictionary-page__source { color: #a26b36; font-size: 20px; margin-bottom: 22px; }
+.dictionary-part { margin-bottom: 22px; }
+.dictionary-part__type { color: #1d5b54; font-size: 23px; font-style: italic; }
+.dictionary-sense { padding: 12px 0 4px; }
+.dictionary-sense__definition { display: block; color: #242c27; font-size: 27px; }
+.dictionary-sense__example { display: block; color: #7d7c75; font-size: 23px; line-height: 1.5; margin-top: 8px; }
+.dictionary-page__audio { display: inline-block; color: #1d5b54; font-size: 23px; margin-top: 12px; }
+.empty-state { background: #fffefa; border-radius: 22px; padding: 38px 28px; color: #7d7c75; font-size: 28px; margin-bottom: 22px; }
+.empty-state__hint { display: block; color: #a5a198; font-size: 22px; margin-top: 10px; }
+.ai-actions { display: flex; gap: 16px; }
+.ai-actions button, .compare-row button { color: #1d5b54; background: #e5f0ea; border-radius: 30px; font-size: 23px; padding: 15px 20px; }
+.ai-result { margin-top: 24px; padding-top: 20px; border-top: 1px solid #ece8df; }
+.ai-result__label { display: block; color: #a26b36; font-size: 21px; margin-top: 14px; }
+.ai-result__text { display: block; color: #4f574f; font-size: 25px; line-height: 1.6; margin-top: 5px; }
+.copy-link { display: inline-block; color: #1d5b54; font-size: 22px; margin-top: 16px; }
+.suggestion-list { margin-top: 20px; }
+.suggestion-item { display: flex; justify-content: space-between; padding: 18px 0; border-top: 1px solid #ece8df; }
+.suggestion-item__text { display: block; color: #242c27; font-size: 27px; font-weight: 600; }
+.suggestion-item__reason { display: block; color: #86847c; font-size: 21px; margin-top: 6px; }
+.suggestion-item__status { color: #a26b36; font-size: 21px; }
+.suggestion-item__right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.suggestion-item__add { color: #1d5b54; font-size: 21px; }
+.compare-row { display: flex; gap: 12px; align-items: center; }
+.compare-row__input { flex: 1; height: 72px; border: 1px solid #e4dfd4; border-radius: 14px; padding: 0 18px; font-size: 24px; }
+.primary-button { color: #fffefa; background: #1d5b54; border-radius: 40px; font-size: 28px; padding: 21px; margin: 20px 0; }

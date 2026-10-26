@@ -1,0 +1,17 @@
+.page-scroll { height: 100vh; }
+.graph-page { min-height: 100vh; padding: 44px 30px 80px; }
+.graph-page__heading { padding: 8px 4px 30px; }
+.graph-page__eyebrow { display: block; color: #a26b36; font-size: 20px; letter-spacing: 1px; }
+.graph-page__title { display: block; color: #1d5b54; font-size: 55px; font-weight: 600; margin-top: 12px; }
+.graph-page__description { display: block; color: #85827a; font-size: 24px; margin-top: 8px; }
+.graph-page__cards { display: flex; flex-direction: column; }
+.graph-page__card { display: flex; justify-content: space-between; align-items: center; padding: 18px 0; border-bottom: 1px solid #ece8df; }
+.graph-page__card:last-child { border-bottom: 0; }
+.graph-page__card.is-focused { margin: 0 -12px; padding-left: 12px; padding-right: 12px; background: #e5f0ea; border-radius: 14px; }
+.graph-page__card-text { display: block; color: #242c27; font-size: 27px; font-weight: 600; }
+.graph-page__card-meta { display: block; color: #8a8982; font-size: 21px; margin-top: 5px; }
+.graph-page__card-open { color: #1d5b54; font-size: 22px; }
+.graph-page__legend { color: #85827a; font-size: 21px; padding: 2px 10px; }
+.graph-page__legend text { display: flex; align-items: center; margin: 10px 0; }
+.legend-dot { width: 16px; height: 16px; border-radius: 50%; display: inline-block; margin-right: 8px; background: #1d5b54; }
+.legend-dot--orphan { background: #d5b995; }

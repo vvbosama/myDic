@@ -1,0 +1,8 @@
+.page-scroll { height: 100vh; }
+.search-page { min-height: 100vh; padding: 48px 30px; }
+.search-page__input { height: 92px; border-radius: 46px; padding: 0 32px; background: #fffefa; border: 1px solid #dfdbd0; color: #202622; font-size: 30px; }
+.search-page__tip { display: block; color: #8b8980; font-size: 23px; padding: 20px 8px; }
+.search-result { background: #fffefa; border: 1px solid #e4dfd4; border-radius: 22px; padding: 28px; position: relative; margin-top: 20px; }
+.search-result__status { color: #a26b36; font-size: 22px; }
+.search-result__text { display: block; color: #1d5b54; font-size: 38px; font-weight: 600; margin-top: 8px; }
+.search-result__arrow { position: absolute; right: 28px; top: 48px; color: #a26b36; font-size: 34px; }
